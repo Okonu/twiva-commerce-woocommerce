@@ -1,0 +1,53 @@
+WooCommerce Commission Manager Plugin License
+
+Copyright (c) 2025 Twiva Commerce
+
+Permission is hereby granted to use this software for commercial and personal purposes, 
+subject to the following terms and conditions:
+
+TERMS OF USE:
+
+1. PERMITTED USES
+   - Installation and use on WordPress websites
+   - Modification for personal/client use
+   - Integration with WooCommerce stores
+   - Commercial use in business operations
+
+2. RESTRICTIONS
+   - Redistribution or resale of the plugin is prohibited
+   - Cannot be included in other plugins or themes for distribution
+   - Cannot be uploaded to WordPress.org repository
+   - Source code cannot be shared publicly without permission
+
+3. SUPPORT AND WARRANTIES
+   - Plugin is provided "as is" without warranties
+   - Support is provided on a best-effort basis
+   - No guarantee of compatibility with all themes/plugins
+   - Users are responsible for testing in their environment
+
+4. LIABILITY
+   - Use at your own risk
+   - Developer not liable for any damages or losses
+   - Users responsible for data backup and security
+   - No liability for commission calculation errors
+
+5. DATA AND PRIVACY
+   - Plugin connects to Supabase for data storage
+   - Users responsible for their own data security
+   - Comply with applicable data protection laws
+   - No personal data is collected by the plugin developer
+
+6. UPDATES AND MAINTENANCE
+   - Updates provided at developer's discretion
+   - No guarantee of ongoing support or updates
+   - Users may modify code for their own needs
+   - Breaking changes may occur between versions
+
+For commercial licensing inquiries or custom development, contact:
+Email: support@twiva-commerce.com
+Website: https://twiva-commerce.com
+
+This license is effective from the date of installation and remains in effect 
+until terminated by uninstalling the plugin.
+
+Last updated: January 15, 2025

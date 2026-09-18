@@ -1,0 +1,156 @@
+/* WooCommerce Commission Manager Admin Styles */
+
+.wc-commission-manager {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+.wc-commission-manager h1 {
+    color: #23282d;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.wc-commission-manager h2 {
+    color: #23282d;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+/* Tab Navigation */
+.wc-commission-manager .button {
+    margin: 5px;
+    min-width: 120px;
+}
+
+/* Loading Spinner */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.wc-commission-manager .spinner {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #2271b1;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+}
+
+/* Overview Stats */
+.overview-stats-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+    gap: 20px !important;
+    margin: 20px 0 !important;
+}
+
+.overview-stats-grid > div {
+    background: #fff !important;
+    border: 1px solid #ddd !important;
+    border-radius: 8px !important;
+    padding: 20px !important;
+    text-align: center !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.overview-stats-grid > div:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15) !important;
+}
+
+/* Tables */
+.wc-commission-manager .wp-list-table {
+    margin-top: 20px;
+}
+
+.wc-commission-manager .wp-list-table th,
+.wc-commission-manager .wp-list-table td {
+    padding: 12px 8px;
+    vertical-align: top;
+}
+
+.wc-commission-manager .wp-list-table img {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+/* Category Tags */
+.wc-commission-manager .category-tag {
+    display: inline-block !important;
+    background: #e7f3ff !important;
+    color: #2271b1 !important;
+    padding: 2px 6px !important;
+    border-radius: 3px !important;
+    font-size: 11px !important;
+    margin: 1px 2px 1px 0 !important;
+}
+
+/* Warning Indicators */
+.wc-commission-manager .warning-row {
+    background-color: #fff3cd !important;
+    border-left: 4px solid #ffc107 !important;
+}
+
+.wc-commission-manager .warning-badge {
+    font-size: 11px !important;
+    color: #856404 !important;
+    background-color: #fff3cd !important;
+    padding: 2px 6px !important;
+    border-radius: 3px !important;
+    margin-top: 4px !important;
+    display: inline-block !important;
+}
+
+/* Search Input */
+.wc-commission-manager input[type="text"] {
+    border: 1px solid #ccd0d4;
+    border-radius: 3px;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+.wc-commission-manager input[type="text"]:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+    outline: none;
+}
+
+/* Error Messages */
+.wc-commission-manager .error-message {
+    background: #f44336 !important;
+    color: white !important;
+    padding: 10px !important;
+    border-radius: 4px !important;
+    margin: 10px 0 !important;
+}
+
+/* Summary Cards */
+.wc-commission-manager .summary-card {
+    background: #f8f9fa !important;
+    padding: 20px !important;
+    border-radius: 8px !important;
+    margin: 20px 0 !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .overview-stats-grid {
+        grid-template-columns: 1fr !important;
+    }
+    
+    .wc-commission-manager .button {
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+    }
+    
+    .wc-commission-manager input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

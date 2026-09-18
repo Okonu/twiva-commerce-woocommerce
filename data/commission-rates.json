@@ -1,0 +1,77 @@
+{
+  "commission_rates": {
+    "Phones & Tablets": {
+      "Phones": 4,
+      "Accessories": 4
+    },
+    "Appliances": {
+      "Large appliances": 4,
+      "Small appliances": 6,
+      "Cooking appliances": 8
+    },
+    "Electronics": {
+      "Computing & Gaming": 6,
+      "Cameras": 11,
+      "TV": 6,
+      "Accessories": 5,
+      "Audio": 11
+    },
+    "Fashion": {
+      "Men": 11,
+      "Women": 11,
+      "Kids & babies": 11,
+      "Accessories": 11,
+      "Shoes": 11,
+      "Luggages & Bags": 11
+    },
+    "Beauty & Health": {
+      "Makeup": 12,
+      "Facial Skincare": 13,
+      "Hair Care": 13,
+      "Fragrance": 11,
+      "Health & Wellness": 14,
+      "Personal Care": 13
+    },
+    "Home & Living": {
+      "Furniture": 11,
+      "Home & Garden": 11,
+      "Power & Lighting": 8,
+      "Home Decor": 12,
+      "Storage & Organization": 10,
+      "Beddings": 8,
+      "Kitchen & Dining": 8
+    },
+    "Sports & Outdoors": {
+      "Athletics & Sports": 11
+    },
+    "Automotives": {
+      "Vehicle parts": 12
+    },
+    "Groceries": {
+      "Food Items": 11,
+      "Food Services": 15,
+      "Beverages": 12
+    },
+    "Books & Stationery": {
+      "Books": 12,
+      "Office supplies": 11,
+      "Software": 11
+    },
+    "Toys & Games": {
+      "Educational Toys": 11,
+      "Action Figures": 12,
+      "Board Games": 11
+    },
+    "Pet supplies": {
+      "Pet supplies": 12
+    },
+    "Digital Services": {
+      "Entertainment Tickets": 4,
+      "E-Books": 4,
+      "Master classes": 4
+    },
+    "Other": {
+      "Other": 15
+    }
+  }
+}
